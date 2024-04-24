@@ -11,7 +11,7 @@ C = EasyDict()
 config = C
 
 # config root_dir and user when u first using
-C.repo_name = 'OEM-LightweightModel'
+C.repo_name = 'oem-lightweight'
 C.abs_dir = osp.realpath(".")
 C.this_dir = C.abs_dir.split(osp.sep)[-1]
 C.root_dir = C.abs_dir[:C.abs_dir.index(C.repo_name) + len(C.repo_name)]
